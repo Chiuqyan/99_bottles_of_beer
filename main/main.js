@@ -1,4 +1,4 @@
-module.export = function main(num) {
+module.export = function printer(num) {
     let countres;
     if (num > 1 && num < 100) {
         countres = String(num) + " bottles of beer on the wall," + String(num) + " bottles of beer.\nTake one down and pass it around," + String(num - 1) + " bottles of beer on the wall.";
