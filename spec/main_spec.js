@@ -15,7 +15,8 @@ describe("99_bottles lyrics", function() {
                 expect(res).toEqual(answer);
             });
             it("number>99", function() {
-                let main(1234);
+                let answer = "99 bottles of beer on the wall, 99 bottles of beer.\nTake one down and pass it around, 98 bottles of beer on the wall.";
+                res = main(1234);
                 expect(res).toEqual(answer);
             });
             it("0<number<100", function() {
