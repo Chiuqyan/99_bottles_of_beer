@@ -1,6 +1,5 @@
-function main(num) {
+module.export = function main(num) {
     let countres;
-    //let count=0;
     if (num > 1 && num < 100) {
         countres = String(num) + " bottles of beer on the wall," + String(num) + " bottles of beer.\nTake one down and pass it around," + String(num - 1) + " bottles of beer on the wall.";
     } else if (num === 1) {
@@ -12,4 +11,3 @@ function main(num) {
     }
     return res;
 }
-module.export = main;
