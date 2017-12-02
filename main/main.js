@@ -1,4 +1,4 @@
-function main(num) {
+module.exports = function main(num) {
     let countres;
 
     if (num > 1 && num < 100) {
@@ -12,4 +12,3 @@ function main(num) {
     }
     return res;
 }
-module.export = main;
